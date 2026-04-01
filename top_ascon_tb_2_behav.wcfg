@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_ascon_tb_2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ascon_pack" />
+            <top_module name="glbl" />
+            <top_module name="top_ascon_tb_2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="865.080 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,548.581 ns"></ZoomEndTime>
+      <Cursor1Time time="1,015.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="176"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/top_ascon_tb_2/DUT/sys_clock_i" type="logic">
+      <obj_property name="ElementShortName">sys_clock_i</obj_property>
+      <obj_property name="ObjectShortName">sys_clock_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/reset_i" type="logic">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/init_i" type="logic">
+      <obj_property name="ElementShortName">init_i</obj_property>
+      <obj_property name="ObjectShortName">init_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/mux1_i" type="logic">
+      <obj_property name="ElementShortName">mux1_i</obj_property>
+      <obj_property name="ObjectShortName">mux1_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/mux2_i" type="array">
+      <obj_property name="ElementShortName">mux2_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mux2_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/affichage_o" type="array">
+      <obj_property name="ElementShortName">affichage_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">affichage_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/clock_s" type="logic">
+      <obj_property name="ElementShortName">clock_s</obj_property>
+      <obj_property name="ObjectShortName">clock_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/tag_s" type="array">
+      <obj_property name="ElementShortName">tag_s[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_s[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/cipher_s" type="array">
+      <obj_property name="ElementShortName">cipher_s[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cipher_s[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/mux1_to_mux2_s" type="array">
+      <obj_property name="ElementShortName">mux1_to_mux2_s[127:0]</obj_property>
+      <obj_property name="ObjectShortName">mux1_to_mux2_s[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/addr_s" type="array">
+      <obj_property name="ElementShortName">addr_s[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_s[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/rom_donnees_s" type="array">
+      <obj_property name="ElementShortName">rom_donnees_s[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_donnees_s[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/key_s" type="array">
+      <obj_property name="ElementShortName">key_s[127:0]</obj_property>
+      <obj_property name="ObjectShortName">key_s[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/nonce_s" type="array">
+      <obj_property name="ElementShortName">nonce_s[127:0]</obj_property>
+      <obj_property name="ObjectShortName">nonce_s[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/end_associate_s" type="logic">
+      <obj_property name="ElementShortName">end_associate_s</obj_property>
+      <obj_property name="ObjectShortName">end_associate_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/cipher_valid_s" type="logic">
+      <obj_property name="ElementShortName">cipher_valid_s</obj_property>
+      <obj_property name="ObjectShortName">cipher_valid_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/end_tag_s" type="logic">
+      <obj_property name="ElementShortName">end_tag_s</obj_property>
+      <obj_property name="ObjectShortName">end_tag_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/end_initialisation_s" type="logic">
+      <obj_property name="ElementShortName">end_initialisation_s</obj_property>
+      <obj_property name="ObjectShortName">end_initialisation_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/end_cipher_s" type="logic">
+      <obj_property name="ElementShortName">end_cipher_s</obj_property>
+      <obj_property name="ObjectShortName">end_cipher_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/finalisation_s" type="logic">
+      <obj_property name="ElementShortName">finalisation_s</obj_property>
+      <obj_property name="ObjectShortName">finalisation_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/data_valid_s" type="logic">
+      <obj_property name="ElementShortName">data_valid_s</obj_property>
+      <obj_property name="ObjectShortName">data_valid_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_ascon_tb_2/DUT/associate_data_s" type="logic">
+      <obj_property name="ElementShortName">associate_data_s</obj_property>
+      <obj_property name="ObjectShortName">associate_data_s</obj_property>
+   </wvobject>
+</wave_config>

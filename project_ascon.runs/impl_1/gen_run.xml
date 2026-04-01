@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1775052101">
+  <File Type="PA-DCP" Name="top_ascon.dcp"/>
+  <File Type="PA-TCL" Name="top_ascon.tcl"/>
+  <File Type="REPORTS-TCL" Name="top_ascon_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="top_ascon_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="top_ascon_opt.dcp"/>
+  <File Type="OPT-DRC" Name="top_ascon_drc_opted.rpt"/>
+  <File Type="OPT-UTIL" Name="top_ascon_utilization_opted.rpt"/>
+  <File Type="OPT-UTIL-PB" Name="top_ascon_utilization_opted.pb"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="top_ascon_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="top_ascon.hwdef"/>
+  <File Type="OPT-TIMING" Name="top_ascon_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="top_ascon_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="top_ascon_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="top_ascon_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="top_ascon_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="top_ascon_placed.dcp"/>
+  <File Type="PLACE-IO" Name="top_ascon_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="top_ascon_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="top_ascon_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="top_ascon_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="top_ascon_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="top_ascon_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="top_ascon_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="top_ascon_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="top_ascon_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="top_ascon_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="top_ascon_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="top_ascon_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="top_ascon_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="top_ascon_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="top_ascon_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="top_ascon_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="top_ascon_routed_bb.dcp"/>
+  <File Type="ROUTE-UTIL" Name="top_ascon_utilization_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="top_ascon_utilization_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="top_ascon_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="top_ascon_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="top_ascon_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="top_ascon_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="top_ascon_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="top_ascon_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="top_ascon_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="top_ascon_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="top_ascon_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="top_ascon_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="top_ascon_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="top_ascon_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="top_ascon_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="top_ascon_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="top_ascon_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="top_ascon_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="top_ascon_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="top_ascon_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="top_ascon_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="top_ascon_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="top_ascon_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="top_ascon_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="top_ascon_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="top_ascon_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="top_ascon_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="top_ascon_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="top_ascon_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="top_ascon_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="top_ascon.bit"/>
+  <File Type="BG-BIN" Name="top_ascon.bin"/>
+  <File Type="BITSTR-MSK" Name="top_ascon.msk"/>
+  <File Type="BITSTR-RBT" Name="top_ascon.rbt"/>
+  <File Type="BITSTR-NKY" Name="top_ascon.nky"/>
+  <File Type="BITSTR-BMM" Name="top_ascon_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="top_ascon.mmi"/>
+  <File Type="PDI-FILE" Name="top_ascon.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="top_ascon_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="top_ascon_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="top_ascon.rcfi"/>
+  <File Type="CFI_FILE" Name="top_ascon.cfi"/>
+  <File Type="RNPI_FILE" Name="top_ascon.rnpi"/>
+  <File Type="RCDO-FILE" Name="top_ascon.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="top_ascon_markers.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="top_ascon_markers.rcdo"/>
+  <File Type="BOOT_RNPI_FILE" Name="top_ascon_boot.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="top_ascon_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="top_ascon_pld.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="top_ascon_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="top_ascon_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="top_ascon_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="top_ascon_pld_unmask.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="top_ascon_pld.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="top_ascon_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="top_ascon_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="top_ascon_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="top_ascon_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="top_ascon_pld_unmask.rcdo"/>
+  <File Type="NPI_FILE" Name="top_ascon.npi"/>
+  <File Type="RBD_FILE" Name="top_ascon.rbd"/>
+  <File Type="MMI-FILE" Name="top_ascon.mmi"/>
+  <File Type="BIF-FILE" Name="top_ascon.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="top_ascon_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="top_ascon_pld.bif"/>
+  <File Type="LTX-FILE" Name="top_ascon.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="top_ascon_boot.ltx"/>
+  <File Type="PL-LTX-FILE" Name="top_ascon_pld.ltx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="top_ascon.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="top_ascon.sysdef"/>
+  <File Type="BG-BGN" Name="top_ascon.bgn"/>
+  <File Type="BG-DRC" Name="top_ascon.drc"/>
+  <File Type="RDI-RDI" Name="top_ascon.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="top_ascon_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="top_ascon_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/ascon_pack.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ASCON/ascon/RTL/ascon_pack.sv"/>
+        <Attr Name="ImportTime" Val="1755783955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/Pc.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ASCON/ascon/RTL/Pc.sv"/>
+        <Attr Name="ImportTime" Val="1755783955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/Permutation.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ASCON/ascon/RTL/Permutation.sv"/>
+        <Attr Name="ImportTime" Val="1755783955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/Pl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ASCON/ascon/RTL/Pl.sv"/>
+        <Attr Name="ImportTime" Val="1755783955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/Ps.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ASCON/ascon/RTL/Ps.sv"/>
+        <Attr Name="ImportTime" Val="1755783955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/Sbox.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ASCON/ascon/RTL/Sbox.sv"/>
+        <Attr Name="ImportTime" Val="1755783955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/ascon.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ASCON/ascon/RTL/ascon.sv"/>
+        <Attr Name="ImportTime" Val="1755783955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/compteur_double_init.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ASCON/ascon/RTL/compteur_double_init.sv"/>
+        <Attr Name="ImportTime" Val="1755783955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/fsm_moore.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ASCON/ascon/RTL/fsm_moore.sv"/>
+        <Attr Name="ImportTime" Val="1755783955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fsm_top.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/mux_state.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ASCON/ascon/RTL/mux_state.sv"/>
+        <Attr Name="ImportTime" Val="1755783955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/register_w_en.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ASCON/ascon/RTL/register_w_en.sv"/>
+        <Attr Name="ImportTime" Val="1755783955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/state_register_w_en.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ASCON/ascon/RTL/state_register_w_en.sv"/>
+        <Attr Name="ImportTime" Val="1755783955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/xor_begin_perm.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ASCON/ascon/RTL/xor_begin_perm.sv"/>
+        <Attr Name="ImportTime" Val="1755783955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/xor_end_perm.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ASCON/ascon/RTL/xor_end_perm.sv"/>
+        <Attr Name="ImportTime" Val="1755783955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top_ascon.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/donnees.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top_ascon"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/contrainte_top_ascon.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/ascon.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+</GenRun>

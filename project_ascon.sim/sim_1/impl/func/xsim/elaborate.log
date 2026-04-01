@@ -1,0 +1,44 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L secureip --snapshot top_ascon_tb_2_func_impl xil_defaultlib.top_ascon_tb_2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 4 for port 'mux2_i' [C:/Users/titi7/Desktop/keysights/project_ascon/project_ascon.srcs/sim_1/new/top_ascon_tb_2.sv:38]
+WARNING: [VRFC 10-3823] variable 'affichage_s' might have multiple concurrent drivers [C:/Users/titi7/Desktop/keysights/project_ascon/project_ascon.srcs/sim_1/new/top_ascon_tb_2.sv:48]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.FDPE_default
+Compiling module unisims_ver.FDCE_default
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.LUT6
+Compiling module xil_defaultlib.fsm_moore
+Compiling module xil_defaultlib.compteur_double_init
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.register_w_en
+Compiling module xil_defaultlib.register_w_en__parameterized0
+Compiling module xil_defaultlib.state_register_w_en
+Compiling module xil_defaultlib.Permutation
+Compiling module xil_defaultlib.ascon
+Compiling module xil_defaultlib.fsm_top
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(READ_WIDTH_A=...
+Compiling module unisims_ver.RAMB36E1(INIT_00=256'b0110100100...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling module xil_defaultlib.top_ascon
+Compiling module xil_defaultlib.top_ascon_tb_2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_ascon_tb_2_func_impl
