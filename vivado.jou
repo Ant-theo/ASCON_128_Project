@@ -3,12 +3,12 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Tue Mar 31 12:51:04 2026
-# Process ID         : 14764
-# Current directory  : C:/Users/titi7/Desktop/keysights/project_ascon
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent16372 C:\Users\titi7\Desktop\keysights\project_ascon\project_ascon.xpr
-# Log file           : C:/Users/titi7/Desktop/keysights/project_ascon/vivado.log
-# Journal file       : C:/Users/titi7/Desktop/keysights/project_ascon\vivado.jou
+# Start of session at: Thu Apr  2 17:43:46 2026
+# Process ID         : 5508
+# Current directory  : C:/Users/titi7/Desktop/project_ascon
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent18068 C:\Users\titi7\Desktop\project_ascon\project_ascon.xpr
+# Log file           : C:/Users/titi7/Desktop/project_ascon/vivado.log
+# Journal file       : C:/Users/titi7/Desktop/project_ascon\vivado.jou
 # Running On         : PC-TAU
 # Platform           : Windows Server 2016 or Windows 10
 # Operating System   : 26200
@@ -17,24 +17,10 @@
 # CPU Physical cores : 6
 # CPU Logical cores  : 12
 # Host memory        : 16487 MB
-# Swap memory        : 5100 MB
-# Total Virtual      : 21588 MB
-# Available Virtual  : 9063 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 25077 MB
+# Available Virtual  : 12223 MB
 #-----------------------------------------------------------
 start_gui
-open_project -read_only C:/Users/titi7/Desktop/keysights/project_ascon/project_ascon.xpr
+open_project C:/Users/titi7/Desktop/project_ascon/project_ascon.xpr
 update_compile_order -fileset sources_1
-open_run synth_1 -name synth_1
-show_objects -name init_round_p6_s [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ BMEM.*.* } ]
-close_design
-close_project
-open_project C:/Users/titi7/Desktop/keysights/project_ascon/project_ascon.xpr
-update_compile_order -fileset sources_1
-open_run synth_1 -name synth_1
-launch_simulation
-close_design
-set_property needs_refresh false [get_runs synth_1]
-set_property needs_refresh false [get_runs impl_1]
-set_property needs_refresh false [get_runs clk_wiz_0_synth_1]
-set_property needs_refresh false [get_runs blk_mem_gen_0_synth_1]
-synth_design -rtl -rtl_skip_mlo -name rtl_1

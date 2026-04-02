@@ -1,9 +1,0 @@
-# compile verilog/system verilog design source files
-verilog xil_defaultlib  --include "D:/Vivado/2025.1/Vivado/data/rsb/busdef" --include "../../../../../project_ascon.ip_user_files/ipstatic" \
-"top_ascon_tb_2_func_impl.v" \
-
-sv xil_defaultlib  --include "D:/Vivado/2025.1/Vivado/data/rsb/busdef" --include "../../../../../project_ascon.ip_user_files/ipstatic" \
-"../../../../../project_ascon.srcs/sim_1/new/top_ascon_tb_2.sv" \
-
-# Do not sort compile order
-nosort
