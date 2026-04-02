@@ -1,0 +1,6 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+C:/Users/titi7/Desktop/keysights/project_ascon/project_ascon.sim/sim_1/impl/timing/xsim/top_ascon_tb_2_time_impl.v,1775052483,verilog,,,,Permutation;ascon;blk_mem_gen_0;blk_mem_gen_0_blk_mem_gen_generic_cstr;blk_mem_gen_0_blk_mem_gen_prim_width;blk_mem_gen_0_blk_mem_gen_prim_wrapper_init;blk_mem_gen_0_blk_mem_gen_top;blk_mem_gen_0_blk_mem_gen_v8_4_9;blk_mem_gen_0_blk_mem_gen_v8_4_9_synth;clk_wiz_0;clk_wiz_0_clk_wiz;compteur_double_init;fsm_moore;fsm_top;glbl;register_w_en;register_w_en__parameterized0;state_register_w_en;top_ascon,,uvm,../../../../../project_ascon.ip_user_files/ipstatic;D:/Vivado/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/titi7/Desktop/keysights/project_ascon/project_ascon.srcs/sim_1/new/top_ascon_tb_2.sv,1774259389,systemVerilog,,,,top_ascon_tb_2,,uvm,../../../../../project_ascon.ip_user_files/ipstatic;D:/Vivado/2025.1/Vivado/data/rsb/busdef,,,,,
